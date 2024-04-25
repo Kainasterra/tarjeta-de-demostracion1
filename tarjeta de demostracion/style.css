@@ -1,0 +1,80 @@
+:root {
+    --bg-2: #ffff;
+    --bg-1: #ffff;
+    --bg-tag: #6e4572;
+    --color-tag: #16f128;
+    --coloor-1: rgba(20, 19, 17, 0.467);
+    --coloor-2:rgba(17, 16, 15, 0.267); 
+     
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: var(--bg-2);
+}
+
+section,
+section img {
+    height: fit-content;
+    border: 1px solid rgb(88, 33, 33);
+}
+
+section {
+    background-color: var(--bg-1);
+}
+
+section div {
+    width: 336px;
+    padding: 16px;
+}
+
+section img {
+    width: 336px;
+    
+    margin-bottom: 16px;
+}
+
+section .tag {
+    font-weight: 500;
+    font-size: 0.625rem;
+    background-color: var(--bg-tag);
+    color: var(--color-tag);
+    padding: 4px 16px;
+    border-radius: 16px;
+
+}
+
+section h1 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 6px;
+
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+    color: var(--coloor-2);
+}
+
+section div:nth-child(1) {
+    border-bottom: 1px solid var(--coloor-2);
+
+}
+
+section .aurhor{
+    color: var(--coloor-2);
+    font-size: 0.75sem;
+}
